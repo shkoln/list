@@ -1,0 +1,24 @@
+body {
+  background-color: #000; /* Черный фон */
+  margin: 40px; /* Увеличенные отступы от краев страницы */
+  text-align: center; /* Центрирование текста и изображения */
+}
+
+.center-image {
+  width: 50px; /* Ширина изображения */
+  height: 50px; /* Высота изображения */
+  margin-top: 20px; /* Отступ сверху перед изображением */
+  border-radius: 50%; /* Делает изображение круглым */
+}
+
+.playlist-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 колонки */
+  gap: 20px; /* Увеличенные отступы между колонками */
+  justify-content: center; /* Центрируем весь контейнер на странице */
+}
+
+.playlist-item iframe {
+  width: 400px; /* Ширина каждого плейлиста */
+  height: 420px; /* Высота каждого плейлиста */
+}
